@@ -1,114 +1,186 @@
 <!DOCTYPE html>
-<html lang="uk">
-<head" class="header">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title"></title>
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
-
-    <link rel="stylesheet" href="./css/style.css"/>
+    <title>Document</title>
 </head>
 <body>
-    <header>
-    <a></a><img class="logo" src="./images/WebStudio.svg" width="145" alt="Webstudio"></a>
-        <nav" class="nav">
-            <ul class="navigation">
-                <li><a class="nav-studia" href="">Студія</a></li>
-                <li><a class="nav-portfolio" href="">Портфоліо</a></li>
-                <li><a class="nav-contacts" href="">Контакти</a></li>
-            </ul>
-        </nav>
-        <ul class="contacts">
-           <li> <a class="contacts-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-           </li>
-           <li>
-            <a class="contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+    <main> 
+        <section class="favorites section">
+          <div class="container">
+        <h2 class="favorites__title">Some of Our Favorites</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <ul class="favorites__list">
+            <li class="favorites__item">
+                    <picture>
+                        <source
+                        srcset="
+                        ../images/content/favorites/favoritse-desk/gamburger.jpg     1x,
+                        ../images/content/favorites/favoritse-desk/gamburger2px.jpg  2x
+                        "
+                        media="(min-width: 1200px)"
+                        type="image/jpeg"
+                      />
+      
+                      <source
+                        srcset="
+                        ../images/content/favorites/favoritse-tab/gamburger.jpg  1x,
+                        ../images/content/favorites/favoritse-tab/gamburger2px.jpg  2x
+                        "
+                        media="(min-width: 768px)"
+                        type="image/jpeg"
+                      />
+
+                        <source
+                          srcset="
+                          ../images/content/favorites/favoritse-mob/gamburger.jpg    1x,
+                          ../images/content/favorites/favoritse-mob/gamburger2px.jpg  2x
+                          "
+                          media="(max-width: 767px)"
+                          type="image/jpeg"
+                        />
+                    <img src="../images/content/favorites/favoritse-desk/gamburger.jpg" width="315px" height="315px"  alt="робоче місце за столом"/>
+                </picture>
+                
+            </li>
+            <li class="favorites__item">
+                <picture>
+                    <source
+                    srcset="
+                    ../images/content/favorites/favoritse-desk/pasta.jpg     1x,
+                    ../images/content/favorites/favoritse-desk/pasta2px.jpg  2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/jpeg"
+                  />
+  
+                  <source
+                    srcset="
+                    ../images/content/favorites/favoritse-tab/pasta.jpg  1x,
+                    ../images/content/favorites/favoritse-tab/pasta2px.jpg  2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/jpeg"
+                  />
+
+                    <source
+                      srcset="
+                      ./images/favorites/favoritse-mob/pasta.jpg    1x,
+                      ./images/favorites/favoritse-mob/pasta2px.jpg  2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/jpeg"
+                    />
+                <img src="./images/favoritse-desk/pasta.jpg" width="315px" height="315px"  alt="робоче місце за столом"/>
+            </picture>
+            </li>
+            <li class="favorites__item">
+                <picture>
+                    <source
+                    srcset="
+                    ../imagest/favorites/favoritse-desk/pizza.jpg     1x,
+                    ../images/favorites/favoritse-desk/pizza2px.jpg  2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/jpeg"
+                  />
+  
+                  <source
+                    srcset="
+                    ../images/favorites/favoritse-tab/pizza.jpg  1x,
+                    ../images/favorites/favoritse-tab/pizza2px.jpg  2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/jpeg"
+                  />
+
+                    <source
+                      srcset="
+                      ../images/favorites/favoritse-mob/pizza.jpg    1x,
+                      ../images/favorites/favoritse-mob/pizza2px.jpg  2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/jpeg"
+                    />
+                <img src="../images/content/favorites/favoritse-desk/pizza.jpg" width="315px" height="315px"  alt="робоче місце за столом"/>
+            </picture>
+            </li>
+            <li class="favorites__item" >
+                <picture>
+                    <source
+                    srcset="
+                    ../images/content/favorites/favoritse-desk/chicken.jpg     1x,
+                    ../images/content/favorites/favoritse-desk/chicken2px.jpg  2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/jpeg"
+                  />
+  
+                  <source
+                    srcset="
+                    ../images/favorites/favoritse-tab/chicken.jpg  1x,
+                    ../images/favorites/favoritse-tab/chicken2px.jpg  2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/jpeg"
+                  />
+
+                
+                <img src="../images/content/favorites/favoritse-desk/chicken.jpg" width="315px" height="315px"  alt="робоче місце за столом"/>
+            </picture>
+            </li>
+            <li class="favorites__item" >
+                <picture>
+                    <source
+                    srcset="
+                    ../images/content/favorites/favoritse-desk/salat.jpg     1x,
+                    ../images/content/favorites/favoritse-desk/salat2px.jpg  2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/jpeg"
+                  />
+  
+                  <source
+                    srcset="
+                    ../images/content/favorites/favoritse-tab/salat.jpg  1x,
+                    ../images/content/favorites/favoritse-tab/salat2px.jpg  2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/jpeg"
+                  />
+
+                    
+                <img src="../images/content/favorites/favoritse-desk/salat.jpg" width="315px" height="315px"  alt="робоче місце за столом"/>
+            </picture>
+            </li>
+            <li class="favorites__item">
+                <picture>
+                    <source
+                    srcset="
+                    ../images/content/favorites/favoritse-desk/borshch.jpg     1x,
+                    ../images/content/favorites/favoritse-desk/borshch2px.jpg  2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/jpeg"
+                  />
+  
+                  <source
+                    srcset="
+                    ../images/content/favorites/favoritse-tab/borshch.jpg  1x,
+                    ../images/content/favorites/favoritse-tab/borshch2px.jpg  2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/jpeg"
+                  />
+                <img src="../images/content/favorites/favoritse-desk/borshch.jpg" width="315px" height="315px"  alt="робоче місце за столом"/>
+            </picture>
             </li>
         </ul>
-    </header>
-    <main>
-        <section class="section">
-            <h1 class="main-title">Ефективні рішення для вашого бізнеса</h1>
-            <button class="button-service" type="button">Замовити послугу</button>
-        </section>
-
-        <section>
-            <h2></h2>
-            <ul>
-                <li>
-                    <h3 class="title-uvaga">Увага до Деталей</h3>
-                    <p class="text-uvaga">Ідейні Міркування, а також початок щоденной роботи за формування позиції </p>
-                </li>
-                <li>
-                    <h3 class="title-punct">Пунктуальність</h3>
-                    <h3 class="text-punct">Завдання організації, особливо рамки та місце навчання кадрів тягне у себе</h3>
-                </li>
-                <li>
-                    <h3 class="title-plan">Планування</h3>
-                    <p class="text-plan">Так само консультація з широким активом значно обумовлює
-                    </p>
-                </li>
-                <li>
-                    <h3 class="title-teh">Сучасні технології</h3>
-                    <p class="text-teh">Значимість цих проблем є настільки очевидною, що реалізація планових завдань.
-                    </p>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2 class="title-zanyattya">Чим ми займаємося</h2>
-            <ul>
-                    <li><img src="./images/whatwedo/1.jpg" width="370" alt="робоче місце за столом"></li>
-                    <li> <img src="./images/whatwedo/2.jpg" width="370" alt="робота за допомогою телефона та ноутбука"></li>
-                    <li><img src="./images/whatwedo/3.jpg" width="370" alt="планшет"></li>
-        </ul>
-        </section>
-        <section>
-            <h2 class="title-comanda">Наша команда</h2>
-            <ul>
-                <li>
-                    <a href="# ">
-                        <img src="./images/team/1.jpg" width="270" height="260" alt="Ігор Дем'яненко">
-                    </a>
-                    <h3 class="name-igor">Ігор Дем'яненко</h3><p class="position-igor">Product designer</p>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./images/team/2.jpg" width="270" height="260"  alt="Ольга Рєпіна">
-                    </a>
-                    <h3 class="name-olga">Ольга Рєпіна</h3><p class="position-olga">Frontend Developer</p>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./images/team/3.jpg" width="270" height="260" alt="Микола Тарасов">
-                    </a>
-                    <h3 class="name-mykola">Микола Тарасов</h3><p class="position-mykola">Marketing</p>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./images/team/4.jpg" width="270" height="260" alt="Михайло Єрмаков">
-                    </a>
-                    <h3 class="name-myhailo">Михайло Єрмаков</h3><p class="position-myhailo">UI Designer</p>
-                </li>
-            </ul>
-        </section>
-
+      </div>
+    </section>
     </main>
-    <footer class="footer">
-        <a></a><img class="logo-footer" src="./images/WebStudioFooter.svg" width="145" alt="Webstudio"></a>
-        <address>
-            <ul>
-                <li><a class="adress" href="#">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li> <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li>
-                 <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
-                 </li>
-             </ul>
-        </address>
-    </footer>
-
+    
 </body>
 </html>
